@@ -1,0 +1,151 @@
+/*  Sadot Maximiliano Cortes Marquez 214496459
+    April 22nd!2016, License: Private
+/*  All contents of this project are  ©2015-2016 Sadot Maximiliano Cortes Marquez. All Rights Reserved.*/
+
+
+/*  Start of Reset*/
+
+
+/*-------------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------------------------------------*/
+
+
+/*End Reset*/
+
+
+/*Css starts*/
+
+
+/*-------------------------------------*/
+
+body {
+    background-color: #1B1C1C;
+    font-family: 'Droid Sans', sans-serif;
+}
+.head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 185px;
+    background-color: #000;
+		border: 1px solid white;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+}
+.menuLogo {
+    position: absolute;
+    top: 10px;
+    left: 240px;
+}
+.menuLogo img{
+	border: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.menuNav {
+    position: absolute;
+    top: 30px;
+    left: 440px;
+    background-color: #000;
+}
+.menuNav a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.menuNav a.aContacto {
+    position: relative;
+    top: 0px;
+    left: 25px;
+}
+.menuNav a.aMembresia {
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+.menuNav i#twitter {
+    position: relative;
+    top: 0px;
+    left: 90px;
+    color: white;
+}
+.menuNav i#facebook {
+    position: relative;
+    top: 0px;
+    left: 140px;
+    color: white;
+}
+.menuNav i#fasearch {
+    position: absolute;
+    top: 6px;
+    left: 770px;
+    color: white;
+    font-size: 20px;
+}
+.menuNav input.search {
+    position: absolute;
+    top: 4px;
+    left: 580px;
+    font-size: 16px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px/25px;
+}
+.submenuNav {
+    position: absolute;
+    top: 90px;
+    left: 500px;
+}
+.submenuNav a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+.submenuNav a.aFunciones {
+    position: relative;
+    left: -4px;
+}
+.submenuNav a.aCartelera{
+	position: relative;
+	left: 30px;
+}
+.submenuNav a.aTalleres{
+	position: relative;
+	left: 60px;
+}

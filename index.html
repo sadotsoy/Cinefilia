@@ -1,0 +1,106 @@
+<!-- Sadot Maximiliano Cortes Marquez 214496459 -->
+<!-- April 22nd!2016, License: Private-->
+<!-- All contents of this project are  ©2015-2016 Sadot Maximiliano Cortes Marquez. All Rights Reserved.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cinefilia</title>
+    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/carrousel.css" />
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Div general de la pagina name: Todo -->
+    <div class="Todo">
+        <!-- Div general del encabezado -->
+        <div class="head">
+            <!-- Div del icono name: menuLogo -->
+            <div class="menuLogo">
+                <a href="index.html"><img src="src/img/cinefilialogo.jpeg" alt="cinefilialogo.jpeg" height="280" width="150" /></a>
+            </div>
+            <!-- Div del menu de navegacion name: menuNav -->
+            <div class="menuNav">
+                <a href="src/nosotros.html" class="aNosotros">NOSOTROS</a>
+                <a href="src/contacto.html" class="aContacto">CONTACTO</a>
+                <a href="src/membresia.html" class="aMembresia">MEMBRESIA</a>
+                <i id="twitter" class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                <i id="facebook" class="fa fa-facebook fa-2x" aria-hidder="true"></i>
+                <i id="fasearch" class="fa fa-search" aria-hidder="true"></i>
+                <input type="text" class="search" placeholder="BUSCAR" id="search" value>== $0
+
+            </div>
+            <!-- Div del SubMenu de navegacion name submenuNav -->
+            <div class="submenuNav">
+                <a href="" class="aFunciones">FUNCIONES</a>
+                <a href="" class="aCartelera">CARTELERA</a>
+                <a href="" class="aTalleres">TALLERES</a>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="carrousel">
+                <section id="dg-container" class="dg-container">
+                    <div class="dg-wrapper">
+                        <a href="#" link="#">
+                          <p>
+                            YOUTH
+                          </p>
+                            <img src="http://yankuserver.com/cine-tonala/back/042016/c34a025137653ad0c1b908439f4bb027.jpg">
+                        </a>
+                        <a href="#" link="#">
+                          <p>
+                            LAS ELEGIDAS
+                          </p>
+                            <img src="http://yankuserver.com/cine-tonala/back/052016/989a48588af6987589362dfef633fe60.jpg">
+                        </a>
+                        <a href="#" link="#">
+                          <p>
+                            EL CLUB
+                          </p>
+                            <img src="http://yankuserver.com/cine-tonala/back/052016/71f73bab6df3a958476ff20d60b04ddf.jpg">
+                        </a>
+                        <a href="#" link="#">
+                          <p>
+                            AMOR MIO
+                          </p>
+                            <img src="http://yankuserver.com/cine-tonala/back/042016/2d75daa25b84fde5d765944fbf68436d.jpg">
+                        </a>
+                        <a href="#" link="#">
+                          <p>
+                            DESIERTO
+                          </p>
+                            <img src="http://yankuserver.com/cine-tonala/back/042016/ca6afd6d740c7740f06547719070f81e.jpg">
+                        </a>
+                    </div>
+                    <ol class="button" id="lightButton">
+                        <li index="0">
+                            <li index="1">
+                                <li index="2">
+                                    <li index="3">
+                                        <li index="4">
+                    </ol>
+                    <nav>
+                        <span class="dg-prev"></span>
+                        <span class="dg-next"></span>
+                    </nav>
+                </section>
+            </div>
+            <script src="js/jquery.min.js"></script>
+            <script src="carrousel.js"></script>
+            <script>
+                $(function() {
+                    $('#dg-container').carrousel({
+                        current: 0,
+                        autoplay: true,
+                        interval: 3000
+                    });
+                });
+            </script>
+        </div>
+</body>
+
+</html>
