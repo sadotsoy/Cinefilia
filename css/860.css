@@ -157,7 +157,7 @@ body {
 .sinopsis {
     position: absolute;
     top: 230px;
-    left: 790px;
+    left: 815px;
     color: white;
     font-size: 30px;
 }
@@ -197,13 +197,13 @@ body {
 }
 .btn {
     position: absolute;
-    top: 440px;
+    top: 409px;
     left: 155px;
     font-size: 15px;
 }
 .btn2 {
     position: absolute;
-    top: 485px;
+    top: 454px;
     left: 155px;
     font-size: 15px;
 }
@@ -332,7 +332,7 @@ body {
 .calendar {
     position: absolute;
     top: 280px;
-    left: 1120px;
+    left: 1160px;
 }
 #calendar {
     width: 258px;
