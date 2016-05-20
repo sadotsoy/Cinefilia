@@ -149,3 +149,21 @@ body {
 	position: relative;
 	left: 60px;
 }
+.based{
+  position: absolute;
+  top: 450px;
+  left: 600px;
+  color: white;
+  font-size: 40px;
+}
+.based a{
+  color: white;
+  text-decoration: none;
+}
+.Copy{
+  position: absolute;
+  top: 500px;
+  left: 440px;
+  color: white;
+  font-size: 30px;
+}

@@ -149,11 +149,29 @@ body {
 	position: relative;
 	left: 60px;
 }
-.basic {
-    font-family: 'Roboto Mono';
-    position: absolute;
-    top: 400px;
-    left: 550px;
-    color: white;
-    font-size: 35px;
+.funciones{
+  position: absolute;
+  top: 450px;
+  left: 680px;
+}
+.funciones a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+.funciones .YOUTH{
+  position: relative;
+  left: 60px;
+}
+.funciones .CLUB{
+  position: relative;
+  left: 50px;
+}
+.funciones .AMOR{
+  position: relative;
+  left: 20px;
+}
+.funciones .DESIERTO{
+  position: relative;
+  left: 33px;
 }
