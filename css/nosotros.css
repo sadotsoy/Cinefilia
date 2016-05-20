@@ -62,21 +62,21 @@ body {
     width: 100%;
     height: 185px;
     background-color: #000;
-		border: 1px solid white;
-		border-top: none;
-		border-left: none;
-		border-right: none;
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .menuLogo {
     position: absolute;
     top: 10px;
     left: 240px;
 }
-.menuLogo img{
-	border: none;
-	border-top: none;
-	border-left: none;
-	border-right: none;
+.menuLogo img {
+    border: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 .menuNav {
     position: absolute;
@@ -141,11 +141,59 @@ body {
     position: relative;
     left: -4px;
 }
-.submenuNav a.aCartelera{
-	position: relative;
-	left: 30px;
+.submenuNav a.aCartelera {
+    position: relative;
+    left: 30px;
 }
-.submenuNav a.aTalleres{
-	position: relative;
-	left: 60px;
+.submenuNav a.aTalleres {
+    position: relative;
+    left: 60px;
+}
+.basic {
+    font-family: 'Roboto Mono';
+    position: absolute;
+    top: 400px;
+    left: 450px;
+    color: white;
+    font-size: 35px;
+}
+.github {
+    font-family: 'Roboto Mono';
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    color: white;
+    font-size: 35px;
+}
+.github a.githubzelda {
+    position: relative;
+    left: 0px;
+    text-decoration: none;
+    color: white;
+}
+.facebookbtn {
+    position: absolute;
+    top: 520px;
+    left: 650px;
+    color: white;
+}
+.facebookbtn i {
+  color: white;
+
+}
+.twitterbtn{
+  position: absolute;
+  top: 520px;
+  left: 800px;
+}
+.twitterbtn i{
+  color: white;
+}
+.link{
+  position: absolute;
+  top: 520px;
+  left: 940px;
+}
+.link i{
+  color: white;
 }
